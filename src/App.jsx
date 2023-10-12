@@ -4,7 +4,7 @@ import Signup from "./Signup.jsx";
 import Appbar from "./Appbar.jsx";
 import AddCourse from "./AddCourse.jsx";
 import Courses from "./Courses";
-import Course from "./Course";
+import Course from './Course.jsx';
 import { useEffect, useState } from 'react';
 import axios from "axios";
 

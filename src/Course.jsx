@@ -24,11 +24,11 @@ function Course() {
             Loading....
         </div>
     }
-
+// 8 + 4 is 12 total max grids that front end can have 
     return <div>
         <GrayTopper title={course.title}/>
         <Grid container>
-            <Grid item lg={8} md={12} sm={12}>
+            <Grid item lg={8} md={12} sm={12}> 
                 <UpdateCard course={course} setCourse={setCourse} />
             </Grid>
             <Grid item lg={4} md={12} sm={12}>

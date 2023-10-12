@@ -9,7 +9,7 @@ function Course() {
 
     const setCourses = useSetRecoilState(coursesState);
 
-    useEffect(() => {
+    useEffect(() => { // use effect async cannot be done directly but can be dones indirectly
         function callback2(data) {
             setCourses(data.courses);
         }
